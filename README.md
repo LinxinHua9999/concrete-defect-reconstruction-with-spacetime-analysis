@@ -9,7 +9,7 @@ I will briefly introduce what you can achieve, what you need, and spacetime anal
 ## What you can get
 Here are some images of the specimens and reconstruction results (the scanned surface and its zoom-in view). We compared the described method with thinning method and the Steger method (two typical centre extraction algorithms for laser stripes in optical laser triangulation). The described method provides more information within the aggregate and edge sections.
 
-> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1.jpg?raw=true =500x)
+> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1.jpg?raw=true" alt="drawing" width="500"/>
 > ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/2.jpg?raw=true =500x)
 
 ---
