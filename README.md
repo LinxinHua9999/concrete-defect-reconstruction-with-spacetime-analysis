@@ -9,10 +9,8 @@ I will briefly introduce what you can achieve, what you need, and spacetime anal
 ## What you can get
 Here are some images of the specimens and reconstruction results (the scanned surface and its zoom-in view). We compared the described method with thinning method and the Steger method (two typical centre extraction algorithms for laser stripes in optical laser triangulation). The described method provides more information within the aggregate and edge sections.
 
-![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1.jpg?raw=true)
-
-> ![](README_material_in_doc/README_images/1.jpg)
-> ![](README_material_in_doc/README_images/2.jpg)
+> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1.jpg?raw=true =500x)
+> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/2.jpg?raw=true =500x)
 
 ---
 ## What you need
@@ -21,7 +19,7 @@ In a typical optical laser triangulation system, there are two items you must ha
 1.	Coordinates of camera
 2.	Coordinates of laser liner (by tracking its movement) and its angle of inclination
 
-> ![](README_material_in_doc/README_images/3.jpg)
+> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/3.jpg?raw=true =300x)
 
 The described system is the same as a typical optical laser triangulation system. The difference is how we identify the central lines of the laser stripes.
 
@@ -29,7 +27,7 @@ The described system is the same as a typical optical laser triangulation system
 ## Spacetime analysis
 The following image presents a typical process of a general optical laser triangulation application. The described method changed the steps 3 & 4 to a modified spacetime analysis.
 
-> ![](README_material_in_doc/README_images/4_StepsInLaserTri.jpg)
+> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/4_StepsInLaserTri.jpg?raw=true =400x)
 
 
 Spacetime analysis was first proposed by Brain Curless and Marc Levoy in 1995 (https://graphics.stanford.edu/papers/spacetime/spacetime_full.pdf), which is basically analysing the frames from the perspective of pixels (it's my personal understanding). With the normal laser triangulation algorithms, we need to identify the range of laser stripes and then find the central lines. It is critical to have the boundaries precisely identified. The spacetime analysis doesn't really care about the the shape of laser stripes, it cares more about the temporal distribution of the intensity based on the following assumption: 
@@ -38,7 +36,7 @@ Spacetime analysis was first proposed by Brain Curless and Marc Levoy in 1995 (h
 As presented in the following image, the illuminant has a Gaussian profile. During scanning, it (illuminant/laser) moves with a constant speed. If we observe a specific sensor/pixel, its reading/intensity should follow the Gaussian distribution. Then the task can be switched to finding the central lines of the Gaussian profiles. Once the central line of the Gaussian profile was found, we can solve for the coordinates of the illuminant (by tracking its movement with speed and time) to form a triangle (illuminant, camera/sensor, a point on the target).
 
 
-> ![](README_material_in_doc/README_images/5_spacetimeprinciple.jpg)
+> ![](https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/5_spacetimeprinciple.jpg?raw=true =500x)
 
 
 From my point of view, the spacetime analysis changes the objects to be processed from the laser stripes to pixels. And, in practice, the laser stripe will always have a width, no matter it is 1 mm or 2 mm, which is generally wider than one or two pixels. In that way, the accuracy increases.
