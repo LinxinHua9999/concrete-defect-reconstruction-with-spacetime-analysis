@@ -1,5 +1,5 @@
 # 3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis
-This is an introduction for “3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis” (https://www.sciencedirect.com/science/article/pii/S0926580522003429). It aims to extract 3D information of concrete defects from small-to-medium-scale specimens using optical approaches (optical laser triangulation). The described method in this paper helps eliminating the reconstruction error due to reflectivity (aggregates) and occlusion (edges).
+This is an introduction for “3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis” (https://www.sciencedirect.com/science/article/pii/S0926580522003429). It aims to extract 3D information of concrete defects from small-to-medium-scale specimens using ***optical approaches (optical laser triangulation)***. The described method in this paper helps eliminating the reconstruction error due to reflectivity (aggregates) and occlusion (edges).
 
 I will briefly introduce what you can achieve and what you need in this README file. You can check the list at the end and find more detailed explanation.
 
