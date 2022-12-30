@@ -43,14 +43,13 @@ From my point of view, the spacetime analysis changes the objects to be processe
 
 If your target object has smooth surface, the spacetime analysis probably won't give you a better result as it is easy to have accurate boundary. Otherwise, it will definitely be a potential solution for you. 
 
-However, if you try to search spacetime analysis, probably you won't get what you want. It was rarely applied in computer vision, if you ask me, probably because of the low scanning speed. From my experience, the scanning speed was limited to tens of millimetres per second (frame rate is 120 Hz) to collect sufficient readings for one pixel. I applied 5 mm/s to achieve around 40-50 (based on my memory) valid data points for one pixel to generate the point clouds in the first two images.
+However, if you try to search spacetime analysis, probably you won't get what you want. It was rarely applied in computer vision, if you ask me, probably because of the low scanning speed. From my experience, the scanning speed was limited to tens of millimetres per second (frame rate is 60 Hz) to collect sufficient readings for one pixel. I applied 5 mm/s to achieve around 40-50 (based on my memory) valid data points for one pixel to generate the point clouds in the first two images.
 
 ---
 ## What you can find here
-walk through of an example project
 
-operation to collect data, what your data looks like
+0_RawData -- 6 example videos and detailed explanation to data collection
 
-steps to process a data
+1_Reconstruction -- walk through of one example case (with MATLAB Live Script file) 
 
 ...
