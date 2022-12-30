@@ -1,0 +1,4 @@
+# RawData #
+
+Here we have 6 videos for anyone who is interested to try. Those videos were taken by a GoPro HERO10 with "5k,60Hz, narrow" mode. The lens distortion is corrected with the built-in algorithm of the camera. A recording generally lasts for around 20 s with a frame rate of 59.9402 frame/sec. Each frame has 5312 ×
+2988 pixels. I put them in a Google Drive folder and anyone with this [link](https://drive.google.com/drive/folders/1UA8Ou1_pZLtrN8g0FZ9s6NKGzCt6YxnV?usp=share_link) (https://drive.google.com/drive/folders/1UA8Ou1_pZLtrN8g0FZ9s6NKGzCt6YxnV?usp=share_link) can easily download them.
