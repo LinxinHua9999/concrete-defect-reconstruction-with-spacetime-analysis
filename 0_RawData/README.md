@@ -6,7 +6,7 @@ I put them in a Google Drive folder and anyone with this [link](https://drive.go
 
 ---
 
-The following content describes the details of data collection, which comes from the section 3, Reconstruction of defects, of “[3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003429)”. It includes:
+The following content describes the details of data collection, which comes from the section 3, Reconstruction of defects, of “[3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003429)” (figure titles are missing). It includes:
 
 * what the hardware looks like
 * what the videos look like (basic parameters of the video)
