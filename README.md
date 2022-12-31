@@ -1,5 +1,5 @@
 # 3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis
-This is an introduction for “3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis” (https://www.sciencedirect.com/science/article/pii/S0926580522003429). It aims to extract 3D information of concrete defects from small-to-medium-scale specimens using ***optical approaches (optical laser triangulation)***. The described method in this paper helps eliminating the reconstruction error due to reflectivity (aggregates) and occlusion (edges).
+This is an introduction for “[3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003429)”. It aims to extract 3D information of concrete defects from small-to-medium-scale specimens using ***optical approaches (optical laser triangulation)***. The described method in this paper helps eliminating the reconstruction error due to reflectivity (aggregates) and occlusion (edges).
 
 I will briefly introduce what you can achieve, what you need, and spacetime analysis in this README file. At the end of this introduction, you will find all the steps to walk through an example project. The provided code were written in MATLAB. You can find the detailed explanation in the corresponding folders.
 
@@ -9,8 +9,8 @@ I will briefly introduce what you can achieve, what you need, and spacetime anal
 ## What you can get
 Here are some images of the specimens and reconstruction results (the scanned surface and its zoom-in view). We compared the described method with thinning method and the Steger method (two typical centre extraction algorithms for laser stripes in optical laser triangulation). The described method provides more information within the aggregate and edge sections.
 
-> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1.jpg?raw=true" alt="drawing" width="700"/>
-> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/2.jpg?raw=true" alt="drawing" width="700"/>
+> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/1_results_compare.jpg?raw=true" alt="drawing" width="700"/>
+> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/2_results_compare.jpg?raw=true" alt="drawing" width="700"/>
 
 ---
 ## What you need
@@ -19,7 +19,7 @@ In a typical optical laser triangulation system, there are two items you must ha
 1.	Coordinates of camera
 2.	Coordinates of laser liner (by tracking its movement) and its angle of inclination
 
-> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/3.jpg?raw=true" alt="drawing" width="400"/>
+> <img src="https://github.com/LinxinHua9999/concrete-defect-reconstruction-with-spacetime-analysis/blob/main/README_material_in_doc/README_images/3_hardware.jpg?raw=true" alt="drawing" width="400"/>
 
 The described system is the same as a typical optical laser triangulation system. The difference is how we identify the central lines of the laser stripes.
 
