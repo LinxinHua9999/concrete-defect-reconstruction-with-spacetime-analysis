@@ -1,13 +1,18 @@
 # RawData #
 
-Here we have 6 videos for anyone who is interested to try. Those videos were taken by a GoPro HERO10 with "5k,60Hz, narrow" mode. The lens distortion was corrected with the built-in algorithm of the camera. A recording generally lasts for around 20 s with a frame rate of 59.9402 frame/sec. Each frame has 5312 ×
-2988 pixels. 
+Here we have 6 videos for anyone who is interested to try. Those videos were taken as described below. 
 
 I put them in a Google Drive folder and anyone with this [link](https://drive.google.com/drive/folders/1UA8Ou1_pZLtrN8g0FZ9s6NKGzCt6YxnV?usp=share_link) can easily download them. If you want to go through the example code, you need to download 1-2.MP4.
 
 ---
 
-The following content describes the process of data collection, which comes from the section 3, Reconstruction of defects, of “[3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003429)”:
+The following content describes the details of data collection, which comes from the section 3, Reconstruction of defects, of “[3D reconstruction of concrete defects using optical laser triangulation and modified spacetime analysis](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003429)”. It includes:
+
+* what the hardware looks like
+* what the videos look like (basic parameters of the video)
+* what the specimens look like  
+
+---
 
 ### 3.1 Hardware system
 
@@ -31,7 +36,7 @@ An add-on interference-coating-based narrow bandpass optical filter was applied 
 
 The resolution of the proposed system is determined by the number of pixels within the range of interest. With the system settings in this work, a single point from the point cloud represents the information of a small portion of the specimen (target portion). Within the Cartesian coordinate system applied in this study, this small portion in the trial capture is a 0.047 mm×0.047 mm square if being projected to the XZ plane. The dimensions of the projected square are consistent during a single scanning and changes in every capture. And, the depth resolution of the point cloud decreases if the included angle between the small portion and the XZ plane increases.
 
-### Specimen and loading test
+### 3.3 Specimen and loading test
 
 Nine concrete cubes (75 mm×75 mm×75 mm, scanned region: 75 mm×7 5mm) and one under-reinforced concrete beam (100 mm×200 mm×1500 mm, scanned region: 150 mm×150 mm) were fabricated and loaded to failure after curing for 28 days. 
 
